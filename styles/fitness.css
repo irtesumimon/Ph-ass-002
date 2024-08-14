@@ -278,7 +278,7 @@ footer {
 
 .all-trainer {
   width: 1060px;
-  height: 604px;
+  height: auto;
   margin-left: 200px;
   background-color: rgba(34, 34, 34, 1);
   border-radius: 20px;
@@ -294,6 +294,7 @@ footer {
 
 .team-partner {
   text-align: center;
+  height: auto;
 }
 
 hr {
@@ -371,6 +372,7 @@ footer {
     margin-top: -390px;
     margin-left: 100px;
   }
+  
 
   .main-box {
     display: grid;
