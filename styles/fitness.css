@@ -5,9 +5,10 @@
 .miama {
   font-family: "Miama", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   color: white;
+  font-size: 8rem;
 }
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -31,7 +32,7 @@
   display: flex;
 }
 
-.namess{
+.namess {
   margin: auto;
   margin-top: -60px;
   margin-left: -180px;
@@ -43,9 +44,8 @@
 }
 .boxy {
   margin-bottom: 0.5rem;
-  
+  line-height: 120%;
 }
-
 
 .light-text {
   color: rgba(255, 255, 255, 0.5);
@@ -101,7 +101,7 @@ header {
   scale: 1;
 }
 .why {
-  border: 16px solid orangered;
+  border: 16px solid rgba(230, 83, 60, 1);
   border-radius: 30px;
   margin-top: 30px;
   margin-right: 10px;
@@ -129,6 +129,7 @@ header {
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  border: 1px solid rgba(255, 255, 255, 0.404);
 }
 .item {
   border: 1px solid gray;
@@ -145,6 +146,7 @@ header {
 
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 8px;
+  width: auto;
 }
 .last-cell {
   grid-column: 1 / span 2;
@@ -157,8 +159,15 @@ header {
   color: gray;
   padding: 10px;
   background-color: rgba(161, 156, 156, 0.133);
-  color: rgba(255, 255, 255, 0.654);
+  color: rgba(255, 255, 255, 0.333);
   border-radius: 8px;
+}
+
+option{
+ 
+  color: rgba(255, 255, 255, 0.654);
+   background-color: rgb(45, 41, 41);
+  
 }
 
 .calc-btn {
@@ -174,13 +183,9 @@ header {
   list-style: none;
   border-radius: 50px;
   padding: 8px 20px 8px 20px;
-
 }
 
-
-
-
-.naving{
+.naving {
   margin-bottom: 50px;
 }
 
@@ -213,7 +218,7 @@ footer {
 
 .tomato,
 .brand-name {
-  color: rgb(255, 85, 0);
+  color: rgba(230, 83, 60, 1);
 }
 .brand-name {
   font-weight: 800;
@@ -228,23 +233,30 @@ footer {
 .extra,
 .join-now,
 .join-btn {
-  background-color: rgb(255, 85, 0);
+  background-color: rgba(230, 83, 60, 1);
+
 }
 
 .join-now,
-.download,
 .join-btn {
   padding: 16px 40px;
   border-radius: 42px;
   margin-top: 20px;
   color: white;
+  width: 224px;
+  border: 0px;
 }
 
 .download {
+  
   border: 1px solid white;
   background-color: black;
   color: white;
   margin-left: 8px;
+  padding: 16px 40px;
+  border-radius: 42px;
+  margin-top: 20px;
+  width: 224px;
 }
 
 .short-section {
@@ -299,12 +311,11 @@ footer {
 }
 
 hr {
-  width: 80%;
+  width: 75%;
+  margin-top: 100px;
 }
 
-.outro {
-  margin-left: 200px;
-}
+
 
 .copyright {
   text-align: center;
@@ -318,8 +329,9 @@ footer {
 }
 
 .box-size {
-  width: 80%;
+  width: 70%;
   padding-bottom: 50px;
+  margin: auto;
 }
 
 .columns {
@@ -332,7 +344,6 @@ footer {
   list-style-type: none;
 }
 
-
 .uff {
   margin-left: 60px;
 }
@@ -344,7 +355,7 @@ footer {
   object-fit: cover;
 }
 
-.another{
+.another {
   margin-top: -25px;
 }
 @media screen and (max-width: 576px) {
@@ -362,24 +373,23 @@ footer {
   }
   .get {
     font-size: 3rem;
-    
   }
   .join-now,
-.download,
-.join-btn {
-  padding: 8px 20px;
-  border-radius: 42px;
-  margin-top: 20px;
-  color: white;
-}
-.img1{
-  padding-left: 10px;
-}
+  .download,
+  .join-btn {
+    padding: 8px 20px;
+    border-radius: 42px;
+    margin-top: 20px;
+    color: white;
+  }
+  .img1 {
+    padding-left: 10px;
+  }
   .big-text {
     font-size: 3rem;
     font-weight: 800;
   }
-  
+
   .mew {
     width: 50%;
   }
@@ -394,7 +404,6 @@ footer {
     margin-top: -390px;
     margin-left: 100px;
   }
-  
 
   .main-box {
     display: grid;
@@ -425,7 +434,7 @@ footer {
     margin-bottom: 30px;
     height: auto;
   }
-  .outro{
+  .outro {
     flex-direction: column;
     margin: auto;
   }
@@ -434,15 +443,13 @@ footer {
     width: auto;
   }
 
-.calc{
+  .calc {
     flex-direction: column;
-}
-.calculator{
+  }
+  .calculator {
     margin: auto;
     width: auto;
     height: auto;
     padding: 50px;
-}
-
-
+  }
 }
