@@ -393,10 +393,10 @@ height: 100vh;
 }
 .omg-gym{
   width: 60%;
-  height: 70%;
+  height: 60%;
   border-radius: 50%;
   object-fit: fill ;
-  margin: 30px;
+  margin-top: 70px;
   margin-left: 100px;
   margin-bottom: 0;
   padding-bottom: 0;

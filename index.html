@@ -152,17 +152,21 @@
             <input class="item2" type="text" placeholder="Height" >
             <input class="item2" type="text" placeholder="Weight/kg" >
             <input class="item2" type="text" placeholder="Age">
-            <select name="gender" class="item2 selection-drop">
-              <option value="Sex">Sex</option>
-              <option value="Male">Male</option>
-              <option value="Female">Female</option>
+            <select name="gender" class="item2 selection-drop" >
+              <!-- <option value="Sex"></option> -->
+              <option value="" disabled selected hidden>Sex</option>
+
+              <option value="">Male</option>
+              <option value="">Female</option>
+              <option value="">Other</option>
             </select>
         
             <select name="" class="item2 last-cell">
-              <option value="">Select an activity factor</option>
+              <option value="" disabled selected hidden>Select an activity factor</option>
               <option value="">Everyday</option>
               <option value="">Twice in a week</option>
               <option value="">once in a week</option>
+              <option value="">Not a single day in a week</option>
             </select>
           
            <div class="calc-btn">
