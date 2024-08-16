@@ -609,7 +609,7 @@ height: 100vh;
 
 .extra-section{
   background-color: rgba(69, 69, 71, 0.6);
-  height: 130vh;
+  height: 160vh;
   flex-direction: column;
   
   }
@@ -660,6 +660,9 @@ height: 100vh;
     }
     .join-btn{
       margin-left: 25%;
+    }
+    .little-space{
+      margin-top: 0;
     }
 }
 
